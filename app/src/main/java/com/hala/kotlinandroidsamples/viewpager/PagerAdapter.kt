@@ -15,7 +15,6 @@ class PagerAdapter(fragementManager: FragmentManager) : FragmentStatePagerAdapte
     override fun getCount(): Int {
         return 3
     }
-
     override fun getItem(position: Int): Fragment {
         return ViewPagerFragment.newInstance()
     }
