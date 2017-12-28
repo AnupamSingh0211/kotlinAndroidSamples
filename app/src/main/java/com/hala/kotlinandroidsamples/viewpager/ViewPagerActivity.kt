@@ -10,6 +10,7 @@ class ViewPagerActivity : AppCompatActivity() {
     private lateinit var viewPager: ViewPager
     private lateinit var pagerAdapter: PagerAdapter
 
+
     // Use the keyword lateinit to avoid making the view nullable if you want to initialize it later.
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

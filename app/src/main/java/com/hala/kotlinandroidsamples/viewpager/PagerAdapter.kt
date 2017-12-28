@@ -10,6 +10,7 @@ import android.support.v4.app.FragmentStatePagerAdapter
  * @version 1.0
  * @since 2017-12-28
  */
+
 class PagerAdapter(fragementManager: FragmentManager) : FragmentStatePagerAdapter(fragementManager) {
 
     override fun getCount(): Int {
