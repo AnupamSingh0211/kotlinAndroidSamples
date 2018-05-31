@@ -3,6 +3,13 @@ package com.hala.kotlinandroidsamples.viewpager
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
+import android.widget.FrameLayout
+import android.widget.RelativeLayout
+import com.hala.kotlinandroidsamples.R
+import android.widget.LinearLayout
+
+
+
 
 /**
  * @author  anupamsingh
@@ -36,5 +43,6 @@ public class Layouts021 : View {
             // doSomething()
         }
     }
+
 
 }
