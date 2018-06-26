@@ -16,7 +16,7 @@ import com.hala.kotlinandroidsamples.R
 class ViewPagerFragment : Fragment() {
 
     companion object {
-
+        var hala = "hala hala"
         fun newInstance(): ViewPagerFragment {
             return ViewPagerFragment()
         }
