@@ -16,4 +16,5 @@ class Constants {
         const val COUNTRY = "INDIA"
     }
 
+    //https://blog.egorand.me/where-do-i-put-my-constants-in-kotlin/
 }
